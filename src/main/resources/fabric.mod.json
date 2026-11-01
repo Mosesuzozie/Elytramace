@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "elytramace",
+  "version": "1.0.0",
+  "name": "ElytraMace",
+  "description": "legitunequipelytra, speardoubletap",
+  "authors": ["Kingmoses777"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["elytramace.ElytraMaceClient"],
+    "modmenu": ["elytramace.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
